@@ -1,9 +1,10 @@
 # Resume
+## Brief introduction
 My name is **Minghui Liao**. I am now a PhD student in Huazhong University of Science and Technology. 
 
 I mainly work on computer vision. My recent works are focusing on scene text detection and recognition.
 
-# Education
+## Education
 
 - **PhD**： Huazhong University of Science and Technology (2017--now)    
 
@@ -11,7 +12,7 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 - **BA**： Huazhong University of Science and Technology (2012--2016)
 
-# Selected publications
+## Selected publications
 
 - "Rotation-Sensitive Regression for Oriented Scene Text Detection." Minghui Liao et al. **CVPR 2018** 
 
