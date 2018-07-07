@@ -14,6 +14,8 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 ## Selected publications
 
+- "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." CO-first-author **ECCV 2018** 
+
 - "Rotation-Sensitive Regression for Oriented Scene Text Detection." Minghui Liao et al. **CVPR 2018** 
 
 - "TextBoxes++: A Single-Shot Oriented Scene Text Detector." Minghui Liao et al. **TIP 2018** [code](https://github.com/MhLiao/TextBoxes_plusplus)
