@@ -28,4 +28,4 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 ## Community works
 
-I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
+I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
