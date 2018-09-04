@@ -25,3 +25,7 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 - "TextBoxes++: A Single-Shot Oriented Scene Text Detector." Minghui Liao et al. **TIP 2018** [code](https://github.com/MhLiao/TextBoxes_plusplus)
 
 - "TextBoxes: A Fast Text Detector with a Single Deep Neural Network." Minghui Liao et al. **AAAI 2017** [code](https://github.com/MhLiao/TextBoxes)
+
+## Community works
+
+I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
