@@ -4,6 +4,10 @@ My name is **Minghui Liao**. I am now a PhD student in Huazhong University of Sc
 
 I mainly work on computer vision. My recent works are focusing on scene text detection and recognition.
 
+[My Google Scholar](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
+
+[My Github](https://github.com/MhLiao)
+
 ## Education
 
 - **PhD**： Huazhong University of Science and Technology (2017--now)    
@@ -16,7 +20,7 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 - "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." Co-first-author **ECCV 2018** 
 
-- "Rotation-Sensitive Regression for Oriented Scene Text Detection." Minghui Liao et al. **CVPR 2018** 
+- "Rotation-Sensitive Regression for Oriented Scene Text Detection." Minghui Liao et al. **CVPR 2018** [code](https://github.com/MhLiao/RRD)
 
 - "TextBoxes++: A Single-Shot Oriented Scene Text Detector." Minghui Liao et al. **TIP 2018** [code](https://github.com/MhLiao/TextBoxes_plusplus)
 
