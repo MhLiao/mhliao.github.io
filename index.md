@@ -1,6 +1,6 @@
 # Resume
 ## Brief introduction
-My name is **Minghui Liao**. I am now a PhD student in Huazhong University of Science and Technology. 
+My name is **Minghui Liao**. I am now a PhD student in Huazhong University of Science and Technology, China. 
 
 I mainly work on computer vision. My recent works are focusing on scene text detection and recognition.
 
