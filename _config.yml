@@ -2,6 +2,7 @@ title: Resume
 logo: person.jpg
 description: I am now a PhD student in Huazhong University of Science and Technology, China.
 theme: jekyll-theme-minimal
+show_downloads: false
 # description: Resume
 # title: Resume
 google_analytics: UA-119872468-1
