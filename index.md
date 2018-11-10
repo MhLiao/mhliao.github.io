@@ -5,8 +5,6 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 [My Google Scholar](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
-[My Github](https://github.com/MhLiao)
-
 # Education
 
 - **PhD**： Huazhong University of Science and Technology (2017--now)    
@@ -29,3 +27,7 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 # Community works
 
 I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [CVPR 2019](http://cvpr2019.thecvf.com/), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
+
+# Achievements and Rewards
+- 2018：CCF-CV Scholarship for PhD student 
+- 2017：National Scholarship for Master Student
