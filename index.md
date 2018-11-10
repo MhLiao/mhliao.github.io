@@ -14,15 +14,15 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 - **BA**： Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
-- "Scene Text Recognition from Two-Dimensional Perspective." Minghui Liao et al. **AAAI 2019**
+- Liao, Minghui, et al. "Scene Text Recognition from Two-Dimensional Perspective." **AAAI 2019**
 
-- "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." Co-first-author **ECCV 2018** 
+- Lyu, Pengyuan, et al. "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." **co-first author** **ECCV 2018** 
 
-- "Rotation-Sensitive Regression for Oriented Scene Text Detection." Minghui Liao et al. **CVPR 2018** [code](https://github.com/MhLiao/RRD)
+- Minghui Liao et al. "Rotation-Sensitive Regression for Oriented Scene Text Detection." **CVPR 2018** [code](https://github.com/MhLiao/RRD)
 
-- "TextBoxes++: A Single-Shot Oriented Scene Text Detector." Minghui Liao et al. **TIP 2018** [code](https://github.com/MhLiao/TextBoxes_plusplus)
+- Minghui Liao et al. "TextBoxes++: A Single-Shot Oriented Scene Text Detector." **TIP 2018** [code](https://github.com/MhLiao/TextBoxes_plusplus)
 
-- "TextBoxes: A Fast Text Detector with a Single Deep Neural Network." Minghui Liao et al. **AAAI 2017** **oral presentation** [code](https://github.com/MhLiao/TextBoxes)
+- Minghui Liao et al. "TextBoxes: A Fast Text Detector with a Single Deep Neural Network." **AAAI 2017** **oral presentation** [code](https://github.com/MhLiao/TextBoxes)
 
 # Community works
 
