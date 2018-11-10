@@ -3,7 +3,7 @@ My name is **Minghui Liao**. I am now a PhD student in Huazhong University of Sc
 
 I mainly work on computer vision. My recent works are focusing on scene text detection and recognition.
 
-[My Google Scholar](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
+[My Google Scholar HomePage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
 # Education
 
