@@ -14,9 +14,9 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 - **BA**： Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
-- Liao, Minghui, et al. "Scene Text Recognition from Two-Dimensional Perspective." **AAAI 2019**
+- Liao, Minghui, et al. "Scene Text Recognition from Two-Dimensional Perspective." **AAAI 2019** **oral presentation**
 
-- Lyu, Pengyuan, et al. "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." **co-first author** **ECCV 2018** 
+- Lyu, Pengyuan, et al. "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes." **co-first author** **ECCV 2018** [code](https://github.com/lvpengyuan/masktextspotter.caffe2)
 
 - Minghui Liao et al. "Rotation-Sensitive Regression for Oriented Scene Text Detection." **CVPR 2018** [code](https://github.com/MhLiao/RRD)
 
@@ -26,7 +26,7 @@ I mainly work on computer vision. My recent works are focusing on scene text det
 
 # Community works
 
-I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [CVPR 2019](http://cvpr2019.thecvf.com/), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
+I am invited to be an official reviewer for several journals and conferences, including [AAAI 2019](https://aaai.org/Conferences/AAAI-19/), [CVPR 2019](http://cvpr2019.thecvf.com/), [IEEE Access](https://mc.manuscriptcentral.com/ieee-access), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
 
 # Achievements and Rewards
 - 2018：CCF-CV Scholarship for PhD student 
