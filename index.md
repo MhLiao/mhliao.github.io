@@ -1,4 +1,4 @@
-My name is **Minghui Liao**. I am now a PhD student, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
+My name is **Minghui Liao (廖明辉)**. I am now a PhD student, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
 My recent works are mainly focusing on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
