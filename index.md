@@ -5,18 +5,21 @@ My recent works are mainly focusing on scene text detection and recognition.
 
 # Experience
 
-- **Research Intern**： Facebook (2019.5--2019.9)
-- **Research Intern**： Megvii (Face++) (2018.3--2019.3)
+- **Research Intern**：Facebook (2019.5--2019.9)
+- **Research Intern**：Megvii (Face++) (2018.3--2019.3)
 
 # Education
 
-- **PhD**： Huazhong University of Science and Technology (2017--now)    
+- **PhD**：Huazhong University of Science and Technology (2017--now)    
 
-- **MA**： Huazhong University of Science and Technology (2016--2017)    
+- **MA**：Huazhong University of Science and Technology (2016--2017)    
 
-- **BA**： Huazhong University of Science and Technology (2012--2016)
+- **BA**：Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
+
+- MingKun Yang, Yushuo Guan, Minghui Liao, Xin He, Kaigui Bian, Song Bai, Cong Yao, Xiang Bai, "Symmetry-constrained Rectification Network for Scene Text Recognition". International Conference on Computer Vision (ICCV), 2019
+
 - Minghui Liao, Jian Zhang, Zhaoyi Wan, Fengming Xie, Jiajun Liang, Pengyuan Lyu, Cong Yao, Xiang Bai, “Scene Text Recognition from Two-Dimensional Perspective”. Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), 2019  **oral presentation**
 
 - Pengyuan Lyu*, Minghui Liao*, Cong Yao, Wenhao Wu, Xiang Bai, “Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes”. European Conference on Computer Vision (ECCV), 2018, pp. 67-83. **Co-first author** [code](https://github.com/lvpengyuan/masktextspotter.caffe2)
