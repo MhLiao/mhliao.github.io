@@ -18,6 +18,10 @@ My recent works are mainly focusing on scene text detection and recognition.
 
 # Selected publications
 
+- Minghui Liao, Boyu Song, Minghang He, Shangbang Long, Cong Yao, Xiang Bai, "SynthText3D: Synthesizing Scene Text Images from 3D Virtual Worlds". Under review. [code and data](https://github.com/MhLiao/SynthText3D)
+
+- Minghui Liao, Pengyuan Lyu, Minghang He, Cong Yao, Wenhao Wu, Xiang Bai, "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) [code](https://github.com/MhLiao/MaskTextSpotter)
+
 - MingKun Yang, Yushuo Guan, Minghui Liao, Xin He, Kaigui Bian, Song Bai, Cong Yao, Xiang Bai, "Symmetry-constrained Rectification Network for Scene Text Recognition". International Conference on Computer Vision (ICCV), 2019
 
 - Minghui Liao, Jian Zhang, Zhaoyi Wan, Fengming Xie, Jiajun Liang, Pengyuan Lyu, Cong Yao, Xiang Bai, “Scene Text Recognition from Two-Dimensional Perspective”. Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), 2019  **oral presentation**
@@ -36,9 +40,10 @@ My recent works are mainly focusing on scene text detection and recognition.
 
 # Community works
 
-I am invited to be an official reviewer for several journals and conferences, including ICCV 2019, AAAI 2019, CVPR 2019, IEEE Transactions on Image Processing (TIP), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
+I am invited to be an official reviewer for several journals and conferences, including ICCV, AAAI, CVPR, IEEE Transactions on Image Processing (TIP), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
 
 # Achievements and Rewards
+- 2019: National Scholarship for PhD Student
 - 2019: VALSE Annual Outstanding Student Paper Award Honorable Mention
 - 2018：CCF-CV Scholarship for PhD student 
 - 2017：National Scholarship for Master Student
