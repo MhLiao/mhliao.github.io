@@ -18,7 +18,9 @@ My recent works are mainly focusing on scene text detection and recognition.
 
 # Selected publications
 
-- Minghui Liao, Boyu Song, Minghang He, Shangbang Long, Cong Yao, Xiang Bai, "SynthText3D: Synthesizing Scene Text Images from 3D Virtual Worlds". Under review. [code and data](https://github.com/MhLiao/SynthText3D)
+- Minghui Liao, Zhaoyi Wan, Cong Yao, Kai Chen, Xiang Bai, "Real-time Scene Text Detection with Differentiable Binarization". AAAI, 2020. [code](https://github.com/MhLiao/DB)
+
+- Minghui Liao, Boyu Song, Minghang He, Shangbang Long, Cong Yao, Xiang Bai, "SynthText3D: Synthesizing Scene Text Images from 3D Virtual Worlds". SCIS 2020. [code and data](https://github.com/MhLiao/SynthText3D)
 
 - Minghui Liao, Pengyuan Lyu, Minghang He, Cong Yao, Wenhao Wu, Xiang Bai, "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) [code](https://github.com/MhLiao/MaskTextSpotter)
 
