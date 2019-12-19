@@ -5,6 +5,7 @@ My recent works are mainly on scene text detection and recognition.
 
 # Experience
 
+- **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--now)
 - **Research Intern**：Facebook (2019.5--2019.9)
 - **Research Intern**：Megvii (Face++) (2018.3--2019.3)
 
