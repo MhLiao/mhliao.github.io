@@ -3,6 +3,10 @@ My recent works are mainly on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
+# News
+- One paper is accepted by ECCV 2020.
+- TextBoxes++ is included in ESI highly cited papers.
+
 # Experience
 
 - **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--now)
@@ -18,6 +22,8 @@ My recent works are mainly on scene text detection and recognition.
 - **BA**：Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
+
+- **Minghui Liao**, Guan Pang, Jing Huang, Tal Hassner, Xiang Bai, "Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting". ECCV, 2020. [code](https://github.com/MhLiao/MaskTextSpotterV3)
 
 - **Minghui Liao**, Zhaoyi Wan, Cong Yao, Kai Chen, Xiang Bai, "Real-time Scene Text Detection with Differentiable Binarization". AAAI, 2020. oral presentation [code](https://github.com/MhLiao/DB)
 
