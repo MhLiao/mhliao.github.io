@@ -4,12 +4,12 @@ My recent works are mainly on scene text detection and recognition.
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
 # News
-- One paper is accepted by ECCV 2020.
+- One paper is accepted by CVPR 2021.
 - TextBoxes++ is included in ESI highly cited papers.
 
 # Experience
 
-- **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--now)
+- **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--2020.12)
 - **Research Intern**：Facebook (2019.5--2019.9)
 - **Research Intern**：Megvii (Face++) (2018.3--2019.3)
 
@@ -49,7 +49,7 @@ My recent works are mainly on scene text detection and recognition.
 
 # Community works
 
-I am invited to be an official reviewer for several journals and conferences, including ICCV, AAAI, CVPR, IEEE Transactions on Image Processing (TIP), [IEEE Transactions on Neural Networks and Learning Systems](https://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html), [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition), [Pattern Recognition Letters](https://www.journals.elsevier.com/pattern-recognition-letters), and [Neurocomputing](https://www.journals.elsevier.com/neurocomputing).
+I am invited to be an official reviewer for several journals and conferences, including ICCV, ECCV, CVPR, AAAI, IJCAI, TPAMI, TIP, TNNLS, PR, and Neurocomputing.
 
 # Achievements and Rewards
 - 2019: National Scholarship for PhD Student
