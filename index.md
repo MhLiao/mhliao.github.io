@@ -23,6 +23,8 @@ My recent works are mainly on scene text detection and recognition.
 
 # Selected publications
 
+- Minghang He, **Minghui Liao**, Zhibo Yang, Humen Zhong, Jun Tang, Wenqing Cheng, Cong Yao, Yongpan Wang, Xiang Bai, "MOST: A Multi-Oriented Scene Text Detector with Localization Refinement". CVPR, 2021. **Co-first author**
+
 - **Minghui Liao**, Guan Pang, Jing Huang, Tal Hassner, Xiang Bai, "Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting". ECCV, 2020. [code](https://github.com/MhLiao/MaskTextSpotterV3)
 
 - **Minghui Liao**, Zhaoyi Wan, Cong Yao, Kai Chen, Xiang Bai, "Real-time Scene Text Detection with Differentiable Binarization". AAAI, 2020. oral presentation [code](https://github.com/MhLiao/DB)
