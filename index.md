@@ -1,11 +1,11 @@
-My name is **Minghui Liao (廖明辉)**. I am now a PhD student, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
+My name is **Minghui Liao (廖明辉)**. PhD on computer vision and OCR. I was supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/) during 2016-2021, in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
 My recent works are mainly on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
 # News
 - One paper is accepted by CVPR 2021.
-- TextBoxes++ is included in ESI highly cited papers.
+- TextBoxes++ and Mask TextSpotter (TPAMI) are included in ESI highly cited papers.
 
 # Experience
 
@@ -15,7 +15,7 @@ My recent works are mainly on scene text detection and recognition.
 
 # Education
 
-- **PhD**：Huazhong University of Science and Technology (2017--now)    
+- **PhD**：Huazhong University of Science and Technology (2017--2021)    
 
 - **MA**：Huazhong University of Science and Technology (2016--2017)    
 
