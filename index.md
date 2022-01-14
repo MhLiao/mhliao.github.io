@@ -1,4 +1,4 @@
-My name is **Minghui Liao (廖明辉)**. I received my PhD degree in 2021, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
+My name is **Minghui Liao (廖明辉)**. I am now a researcher in Huawei Cloud. I received my PhD degree in 2021, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
 My recent works are mainly on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
@@ -8,7 +8,7 @@ My recent works are mainly on scene text detection and recognition.
 - TextBoxes++ and Mask TextSpotter (TPAMI) are included in ESI highly cited papers.
 
 # Experience
-
+- **Researcher**: Huawei Cloud, 2021--now
 - **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--2020.12)
 - **Research Intern**：Facebook (2019.5--2019.9)
 - **Research Intern**：Megvii (Face++) (2018.3--2019.3)
@@ -49,11 +49,10 @@ My recent works are mainly on scene text detection and recognition.
 
 - Baoguang Shi, Cong Yao, **Minghui Liao**, Mingkun Yang, Pei Xu, Linyan Cui, Serge Belongie, Shijian Lu, Xiang Bai, “ICDAR2017 Competition on Reading Chinese Text in the Wild (RCTW-17)”. 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), IEEE, 2017, 1: 1429-1434.
 
-# Community works
-
-I am invited to be an official reviewer for several journals and conferences, including ICCV, ECCV, CVPR, AAAI, IJCAI, TPAMI, TIP, TNNLS, PR, and Neurocomputing.
 
 # Achievements and Rewards
+- 2021：CSIG自然科学奖一等奖
+- 2021: AI华人新星百强
 - 2019: National Scholarship for PhD Student
 - 2019: VALSE Annual Outstanding Student Paper Award Honorable Mention
 - 2018：CCF-CV Scholarship for PhD student 
