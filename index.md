@@ -4,8 +4,7 @@ My recent works are mainly on scene text detection and recognition.
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
 # News
-- One paper is accepted by CVPR 2021.
-- TextBoxes++ and Mask TextSpotter (TPAMI) are included in ESI highly cited papers.
+- One paper is accepted by TPAMI.
 
 # Experience
 - **Researcher**: Huawei Cloud, 2021--now
@@ -22,6 +21,8 @@ My recent works are mainly on scene text detection and recognition.
 - **BA**：Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
+
+- **Minghui Liao**, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai, "Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
 
 - Minghang He, **Minghui Liao**, Zhibo Yang, Humen Zhong, Jun Tang, Wenqing Cheng, Cong Yao, Yongpan Wang, Xiang Bai, "MOST: A Multi-Oriented Scene Text Detector with Localization Refinement". CVPR, 2021. **Co-first author**
 
