@@ -22,9 +22,9 @@ My recent works are mainly on scene text detection and recognition.
 
 # Selected publications
 
-- Mingkun Yang, **Minghui Liao**, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai, "Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition". ACM MM, 2022. **Co-first author** [code](https://github.com/MhLiao/DB)
+- Mingkun Yang, **Minghui Liao**, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai, "Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition". ACM MM, 2022. **Co-first author** 
 
-- **Minghui Liao**, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai, "Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
+- **Minghui Liao**, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai, "Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022. [code](https://github.com/MhLiao/DB)
 
 - Minghang He, **Minghui Liao**, Zhibo Yang, Humen Zhong, Jun Tang, Wenqing Cheng, Cong Yao, Yongpan Wang, Xiang Bai, "MOST: A Multi-Oriented Scene Text Detector with Localization Refinement". CVPR, 2021. **Co-first author**
 
