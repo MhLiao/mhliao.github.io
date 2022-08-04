@@ -4,7 +4,7 @@ My recent works are mainly on scene text detection and recognition.
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
 # News
-- One paper is accepted by TPAMI.
+- One paper is accepted by ACM MM 2022.
 
 # Experience
 - **Researcher**: Huawei Cloud, 2021--now
@@ -21,6 +21,8 @@ My recent works are mainly on scene text detection and recognition.
 - **BA**：Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
+
+- Mingkun Yang, **Minghui Liao**, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai, "Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition". ACM MM, 2022. **Co-first author** [code](https://github.com/MhLiao/DB)
 
 - **Minghui Liao**, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai, "Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
 
