@@ -54,6 +54,7 @@ My recent works are mainly on scene text detection and recognition.
 
 
 # Achievements and Rewards
+- 2022: 中国图象图形学学会优秀博士学位论文奖
 - 2021：CSIG自然科学奖一等奖
 - 2021: AI华人新星百强
 - 2019: National Scholarship for PhD Student
