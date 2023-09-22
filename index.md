@@ -1,4 +1,4 @@
-My name is **Minghui Liao (廖明辉)**. I am now a researcher in Huawei Cloud. I received my PhD degree in 2021, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
+My name is **Minghui Liao (廖明辉)**. I am now a researcher in Huawei. I received my PhD degree in 2021, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
 My recent works are mainly on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
@@ -7,7 +7,7 @@ My recent works are mainly on scene text detection and recognition.
 - One paper is accepted by ACM MM 2022.
 
 # Experience
-- **Researcher**: Huawei Cloud, 2021--now
+- **Researcher**: Huawei, 2021--now
 - **Visiting Student**：Johns Hopkins University, with Professor Alan Yuille (2019.12--2020.12)
 - **Research Intern**：Facebook (2019.5--2019.9)
 - **Research Intern**：Megvii (Face++) (2018.3--2019.3)
