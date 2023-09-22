@@ -3,6 +3,8 @@ My recent works are mainly on scene text detection and recognition.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
 
+长期招研究实习生，研究方向为文档智能(多模态)、OCR、目标检测等。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
+
 # News
 - One paper is accepted by ACM MM 2022.
 
