@@ -1,12 +1,12 @@
-My name is **Minghui Liao (廖明辉)**. I am now a researcher in Huawei. I received my PhD degree in 2021, supervised by [Professor Xiang Bai](http://122.205.5.5:8071/~xbai/), in [VLR Group](http://www.vlrlab.net/), Huazhong University of Science and Technology, China. 
-My recent works are mainly on scene text detection and recognition.
+My name is **Minghui Liao (廖明辉)**. I am now a researcher in Huawei.
+My recent works are mainly on multimodal vision language models.
 
-[My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en) 
+[My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en)  
 
-长期招研究实习生，研究方向为文档智能(多模态)、OCR、目标检测等。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
+长期招研究实习生，研究方向为视觉语言多模态、文档智能(多模态)等。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
 
 # News
-- One paper is accepted by ACM MM 2022.
+- One paper is accepted by AAAI 2024.
 
 # Experience
 - **Researcher**: Huawei, 2021--now
@@ -14,13 +14,6 @@ My recent works are mainly on scene text detection and recognition.
 - **Research Intern**：Facebook (2019.5--2019.9)
 - **Research Intern**：Megvii (Face++) (2018.3--2019.3)
 
-# Education
-
-- **PhD**：Huazhong University of Science and Technology (2017--2021)    
-
-- **MA**：Huazhong University of Science and Technology (2016--2017)    
-
-- **BA**：Huazhong University of Science and Technology (2012--2016)
 
 # Selected publications
 
