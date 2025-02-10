@@ -6,7 +6,7 @@ My recent works are mainly on multimodal vision language models.
 长期招研究实习生，研究方向为视觉语言多模态、文档智能(多模态)等。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
 
 # News
-- One paper is accepted by AAAI 2024.
+- TextHawk2 and UI-Hawk are released.
 
 # Experience
 - **Researcher**: Huawei, 2021--now
@@ -16,6 +16,18 @@ My recent works are mainly on multimodal vision language models.
 
 
 # Selected publications
+
+- Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents." Preprints, manuscript/202408.2137 (2024).
+
+- Ya-Qi Yu, **Minghui Liao**, Jiwen Zhang, Jihao Wu, "Texthawk2: A large vision-language model excels in bilingual ocr and grounding with 16x fewer tokens." arXiv preprint arXiv:2410.05261 (2024).
+
+- Ya-Qi Yu, **Minghui Liao**, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng. "Texthawk: Exploring efficient fine-grained perception of multimodal large language models." arXiv preprint arXiv:2404.09204 (2024).
+
+- Xinmiao Yu, et al., "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective". AAAI 2025.
+
+- Jiwen Zhang, et al. "Android in the zoo: Chain-of-action-thought for gui agents." EMNLP Findings 2024.
+
+- Hao Wang, **Minghui Liao**, Zhouyi Xie, Wenyu Liu, Xiang Bai, "Partial Scene Text Retrieval". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024.
 
 - Mingkun Yang, **Minghui Liao**, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai, "Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition". ACM MM, 2022. **Co-first author** 
 
