@@ -25,6 +25,8 @@ My recent works are mainly on multimodal vision language models.
 
 - Xinmiao Yu, et al., "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective". AAAI 2025.
 
+- Xudong Xie, et al. "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling." arXiv preprint arXiv:2410.05970 (2024).
+
 - Jiwen Zhang, et al. "Android in the zoo: Chain-of-action-thought for gui agents." EMNLP Findings 2024.
 
 - Hao Wang, **Minghui Liao**, Zhouyi Xie, Wenyu Liu, Xiang Bai, "Partial Scene Text Retrieval". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024.
