@@ -18,7 +18,7 @@ My recent works are mainly on multimodal vision language models.
 
 # Selected publications
 
-- Hao Yan, et. al., "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning.", **Project Lead**
+- Hao Yan, et al., "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning.", **Project Lead**
 
 - Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents." Preprints, manuscript/202408.2137 (2024), **Project Lead**
 
