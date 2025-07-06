@@ -18,19 +18,19 @@ My recent works are mainly on multimodal vision language models.
 
 # Selected publications
 
-- Hao Yan, et al., "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning.", **Project Lead**
+- Hao Yan, et al., "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning", **Project Lead**
 
-- Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents." Preprints, manuscript/202408.2137 (2024), **Project Lead**
+- Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents" Preprints, manuscript/202408.2137 (2024), **Project Lead**
 
-- Ya-Qi Yu, **Minghui Liao**, Jiwen Zhang, Jihao Wu, "Texthawk2: A large vision-language model excels in bilingual ocr and grounding with 16x fewer tokens." arXiv preprint arXiv:2410.05261 (2024), **Project Lead**
+- Ya-Qi Yu, **Minghui Liao**, Jiwen Zhang, Jihao Wu, "Texthawk2: A large vision-language model excels in bilingual ocr and grounding with 16x fewer tokens" arXiv preprint arXiv:2410.05261 (2024), **Project Lead**
 
-- Ya-Qi Yu, **Minghui Liao**, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng. "Texthawk: Exploring efficient fine-grained perception of multimodal large language models." arXiv preprint arXiv:2404.09204 (2024), **Co-first author**, **Project Lead**
+- Ya-Qi Yu, **Minghui Liao**, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng. "Texthawk: Exploring efficient fine-grained perception of multimodal large language models" arXiv preprint arXiv:2404.09204 (2024), **Co-first author**, **Project Lead**
 
 - Xinmiao Yu, et al., "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective". AAAI 2025.
 
-- Xudong Xie, et al. "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling." arXiv preprint arXiv:2410.05970 (2024).
+- Xudong Xie, et al. "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling" arXiv preprint arXiv:2410.05970 (2024).
 
-- Jiwen Zhang, et al. "Android in the zoo: Chain-of-action-thought for gui agents." EMNLP Findings 2024.
+- Jiwen Zhang, et al. "Android in the zoo: Chain-of-action-thought for gui agents" EMNLP Findings 2024.
 
 - Hao Wang, **Minghui Liao**, Zhouyi Xie, Wenyu Liu, Xiang Bai, "Partial Scene Text Retrieval". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024.
 
