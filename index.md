@@ -3,9 +3,10 @@ My recent works are mainly on multimodal vision language models.
 
 [My Google Scholar Homepage](https://scholar.google.com/citations?user=a4uTLbMAAAAJ&hl=en)  
 
-长期招研究实习生，研究方向为视觉语言多模态、文档智能(多模态)等。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
+长期招研究实习生，研究方向为视觉语言多模态、文档智能。有顶会顶刊论文优先；能长期（6个月以上）实习优先。感兴趣的同学可以将简历发送至：```liaominghui1<at>huawei.com```
 
 # News
+- VisuRiddles is released.
 - TextHawk2 and UI-Hawk are released.
 
 # Experience
@@ -17,11 +18,13 @@ My recent works are mainly on multimodal vision language models.
 
 # Selected publications
 
-- Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents." Preprints, manuscript/202408.2137 (2024).
+- Hao Yan, et. al., "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning.", **Project Lead**
 
-- Ya-Qi Yu, **Minghui Liao**, Jiwen Zhang, Jihao Wu, "Texthawk2: A large vision-language model excels in bilingual ocr and grounding with 16x fewer tokens." arXiv preprint arXiv:2410.05261 (2024).
+- Jiwen Zhang, Yaqi Yu, **Minghui Liao**, Wentao Li, Jihao Wu, Zhongyu Wei, "Ui-hawk: Unleashing the screen stream understanding for gui agents." Preprints, manuscript/202408.2137 (2024), **Project Lead**
 
-- Ya-Qi Yu, **Minghui Liao**, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng. "Texthawk: Exploring efficient fine-grained perception of multimodal large language models." arXiv preprint arXiv:2404.09204 (2024).
+- Ya-Qi Yu, **Minghui Liao**, Jiwen Zhang, Jihao Wu, "Texthawk2: A large vision-language model excels in bilingual ocr and grounding with 16x fewer tokens." arXiv preprint arXiv:2410.05261 (2024), **Project Lead**
+
+- Ya-Qi Yu, **Minghui Liao**, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng. "Texthawk: Exploring efficient fine-grained perception of multimodal large language models." arXiv preprint arXiv:2404.09204 (2024), **Co-first author**, **Project Lead**
 
 - Xinmiao Yu, et al., "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective". AAAI 2025.
 
@@ -63,6 +66,9 @@ My recent works are mainly on multimodal vision language models.
 
 
 # Achievements and Rewards
+- 2023&2024: 爱思唯尔中国高被引学者
+-	2023&2024: 斯坦福大学全球前2%顶尖科学家榜单
+-	2024: 湖北省自然科学奖一等奖
 - 2022: 中国图象图形学学会优秀博士学位论文奖
 - 2021：CSIG自然科学奖一等奖
 - 2021: AI华人新星百强
