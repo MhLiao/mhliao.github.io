@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -5,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minghui Liao (廖明辉) - Academic Homepage</title>
     <meta name="description" content="Academic homepage of Minghui Liao, Researcher at Huawei specializing in Multimodal Vision Language Models and Document Intelligence.">
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -25,7 +27,7 @@
         .text-academic { color: #2563eb; }
         .bg-academic { background-color: #2563eb; }
         .hover-academic:hover { color: #1d4ed8; }
-        
+
         /* 优化图片容器，防止图片变形 */
         .pub-image-container {
             overflow: hidden;
@@ -44,7 +46,7 @@
         .pub-item:hover .pub-image-container img {
             transform: scale(1.05);
         }
-        
+
         .pub-item { transition: all 0.2s ease-in-out; }
         .pub-item:hover { transform: translateY(-2px); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
 
@@ -63,7 +65,7 @@
                 <div class="flex-shrink-0 flex items-center">
                     <span class="font-bold text-xl text-gray-900">Minghui Liao</span>
                 </div>
-                
+
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">Home</a>
@@ -113,7 +115,7 @@
                     <p class="text-xl text-gray-600 mt-2">Researcher / 研究员</p>
                     <p class="text-md text-gray-500">Huawei (华为)</p>
                 </div>
-                
+
                 <p class="text-gray-600 max-w-2xl leading-relaxed">
                     My recent works are mainly on <strong>Multimodal Vision Language Models</strong> and <strong>Document Intelligence</strong>.
                 </p>
@@ -155,556 +157,72 @@
                 </div>
             </section>
 
-            <!-- News -->
+            <!-- News (内容维护在 _data/news.yml) -->
             <section id="news" class="md:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-fit">
                 <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
                     <i class="fas fa-bullhorn text-red-500 mr-2"></i> News
                 </h2>
                 <ul class="space-y-4 text-sm">
-                     <li>
-                        <span class="block text-gray-400 text-xs font-mono mb-1">Recent</span>
-                        <span class="text-gray-700">🔥 <strong>EMMA</strong> is released.</span>
-                    </li>
+                    {% for item in site.data.news %}
                     <li>
-                        <span class="block text-gray-400 text-xs font-mono mb-1">Recent</span>
-                        <span class="text-gray-700">🚀 <strong>VisuRiddles</strong> is released.</span>
+                        <span class="block text-gray-400 text-xs font-mono mb-1">{{ item.date }}</span>
+                        <span class="text-gray-700">{{ item.text }}</span>
                     </li>
+                    {% endfor %}
                 </ul>
             </section>
         </div>
 
-        <!-- All Publications -->
+        <!-- All Publications (内容维护在 _data/publications.yml) -->
         <section id="publications">
             <h2 class="text-2xl font-bold text-gray-900 mb-6 border-l-4 border-blue-600 pl-3">Publications</h2>
-            <!-- <p class="text-sm text-gray-500 mb-6 italic">
-                * Co-first author; <sup>†</sup> Project Lead. <br>
-                (Note: Click on images to view full size.)
-            </p> -->
 
             <div class="space-y-8" id="pub-list">
-                <!-- Javascript will auto-inject "Explain" buttons here -->
-                
-                <!-- 2025 -->
-
+                {% for pub in site.data.publications %}
                 <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
                     <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- Placeholder -->
-                         <img src="assets/EMMA.png" alt="Paper Image">
+                        <img src="{{ pub.image | relative_url }}" alt="{{ pub.alt }}">
                     </div>
                     <div class="flex-grow">
                         <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture
+                            {{ pub.title }}
                         </h3>
                         <p class="text-gray-600 mb-1 text-sm">
-                            Xin He, et al.
+                            {{ pub.authors | replace: "Minghui Liao", '<span class="font-semibold text-gray-900">Minghui Liao</span>' }}
                         </p>
                         <p class="text-gray-500 italic mb-3 text-sm">
-                            arXiv preprint, 2025
+                            {{ pub.venue }}{% if pub.oral %} <span class="text-red-500 font-bold ml-1 not-italic">Oral</span>{% endif %}
                         </p>
+                        {% if pub.tags or pub.links %}
                         <div class="flex flex-wrap gap-2 mt-2">
-                            <a href="https://emma-umm.github.io/emma/" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> Project Page
+                            {% for tag in pub.tags %}
+                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">{{ tag }}</span>
+                            {% endfor %}
+                            {% for link in pub.links %}
+                            <a href="{{ link.url }}" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
+                                {% if link.label == "GitHub" %}<i class="fab fa-github mr-1"></i>{% else %}<i class="fas fa-link mr-1"></i>{% endif %} {{ link.label }}
                             </a>
+                            {% endfor %}
                         </div>
+                        {% endif %}
                     </div>
                 </div>
-                
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- Placeholder -->
-                         <img src="assets/XTVQA.png" alt="Paper Image">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Xinmiao Yu, et al.
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            AAAI Conference on Artificial Intelligence (AAAI), 2025
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <a href="https://github.com/Stardust-y/XTVQA" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/VisuRiddles.png" alt="VisuRiddles">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Hao Yan, et al.
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            arXiv preprint, 2025
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Project Lead</span>
-                            <a href="https://github.com/yh-hust/VisuRiddles" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2024 -->
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub Repo: https://github.com/IMNearth/UIHawk -->
-                         <!-- 建议从 GitHub 仓库下载 teaser 图片 -->
-                         <img src="assets/UIHawk.png" alt="UI-Hawk">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            UI-Hawk: Unleashing the Screen Stream Understanding for GUI Agents
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Jiwen Zhang, et al.
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            EMNLP, 2025
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Project Lead</span>
-                            <a href="https://github.com/IMNearth/UIHawk" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/yuyq96/TextHawk -->
-                         <img src="assets/TextHawk2.png" alt="TextHawk2">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Ya-Qi Yu, <span class="font-semibold text-gray-900">Minghui Liao</span>, Jiwen Zhang, Jihao Wu
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            arXiv preprint arXiv:2410.05261, 2024
-                        </p>
-                         <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Project Lead</span>
-                            <a href="https://github.com/yuyq96/TextHawk" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/yuyq96/TextHawk -->
-                         <img src="assets/TextHawk.png" alt="TextHawk">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Ya-Qi Yu, <span class="font-semibold text-gray-900">Minghui Liao</span>, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            arXiv preprint arXiv:2404.09204, 2024
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Co-first author</span>
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Project Lead</span>
-                             <a href="https://github.com/yuyq96/TextHawk" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/PDFWukong.png" alt="WuKong">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Xudong Xie, et al.
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            arXiv preprint arXiv:2410.05970, 2024
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <a href="https://github.com/yh-hust/PDF-Wukong" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/AITZ.png" alt="Android Zoo">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Android in the zoo: Chain-of-action-thought for gui agents
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Jiwen Zhang, et al.
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            EMNLP Findings, 2024
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                             <a href="https://github.com/IMNearth/CoAT" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/PST.png" alt="Partial Scene Text">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Partial Scene Text Retrieval
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Hao Wang, <span class="font-semibold text-gray-900">Minghui Liao</span>, Zhouyi Xie, Wenyu Liu, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                             <a href="https://github.com/lanfeng4659/PSTR" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2022 -->
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/DiG.png" alt="ACM MM 2022">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Mingkun Yang, <span class="font-semibold text-gray-900">Minghui Liao</span>, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            ACM Multimedia (ACM MM), 2022
-                        </p>
-                        <div class="flex flex-wrap gap-2 mt-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Co-first author</span>
-                             <a href="https://github.com/ayumiymk/DiG" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/DB -->
-                         <img src="assets/DBNet_TPAMI.png" alt="DBNet">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
-                        </p>
-                         <a href="https://github.com/MhLiao/DB" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 2021 -->
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/MOST.png" alt="MOST">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            MOST: A Multi-Oriented Scene Text Detector with Localization Refinement
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Minghang He, <span class="font-semibold text-gray-900">Minghui Liao</span>, Zhibo Yang, Humen Zhong, Jun Tang, Wenqing Cheng, Cong Yao, Yongpan Wang, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            CVPR, 2021
-                        </p>
-                        <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Co-first author</span>
-                    </div>
-                </div>
-
-                <!-- 2020 -->
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/MaskTextSpotterV3 -->
-                        <img src="assets/MTSV3.png" alt="Mask TextSpotter v3">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Guan Pang, Jing Huang, Tal Hassner, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            European Conference on Computer Vision (ECCV), 2020
-                        </p>
-                         <a href="https://github.com/MhLiao/MaskTextSpotterV3" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/DB -->
-                        <img src="assets/DBNet.png" alt="DBNet">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Real-time Scene Text Detection with Differentiable Binarization
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Zhaoyi Wan, Cong Yao, Kai Chen, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            AAAI, 2020 <span class="text-red-500 font-bold ml-1">Oral</span>
-                        </p>
-                         <a href="https://github.com/MhLiao/DB" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/SynthText3D -->
-                        <img src="assets/SynthText3D.png" alt="SynthText3D">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            SynthText3D: Synthesizing Scene Text Images from 3D Virtual Worlds
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Boyu Song, Minghang He, Shangbang Long, Cong Yao, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            SCIS 2020
-                        </p>
-                         <a href="https://github.com/MhLiao/SynthText3D" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Previous Years -->
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/MaskTextSpotter -->
-                        <img src="assets/MTS_TPAMI.png" alt="Mask TextSpotter v2">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Pengyuan Lyu, Minghang He, Cong Yao, Wenhao Wu, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-                        </p>
-                         <a href="https://github.com/MhLiao/MaskTextSpotter" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/ScRN.png" alt="ICCV 2019">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Symmetry-constrained Rectification Network for Scene Text Recognition
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            MingKun Yang, Yushuo Guan, <span class="font-semibold text-gray-900">Minghui Liao</span>, Xin He, Kaigui Bian, Song Bai, Cong Yao, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            International Conference on Computer Vision (ICCV), 2019
-                        </p>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <img src="assets/CA-FCN.png" alt="AAAI 2019">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Scene Text Recognition from Two-Dimensional Perspective
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Jian Zhang, Zhaoyi Wan, Fengming Xie, Jiajun Liang, Pengyuan Lyu, Cong Yao, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            AAAI, 2019 <span class="text-red-500 font-bold ml-1">Oral</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/MaskTextSpotter -->
-                        <img src="assets/MaskTextSpotter.png" alt="Mask TextSpotter v1">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            Pengyuan Lyu, <span class="font-semibold text-gray-900">Minghui Liao</span>, Cong Yao, Wenhao Wu, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            European Conference on Computer Vision (ECCV), 2018
-                        </p>
-                        <div class="flex gap-2">
-                            <span class="inline-flex items-center px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded border border-blue-100">Co-first author</span>
-                             <a href="https://github.com/MhLiao/MaskTextSpotter" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                                <i class="fab fa-github mr-1"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/TextBoxes_plusplus -->
-                        <img src="assets/RRD.png" alt="Rotation Sensitive Regression">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                            Rotation-Sensitive Regression for Oriented Scene Text Detection
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Zhen Zhu, Baoguang Shi, Gui-song Xia, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            CVPR, 2018
-                        </p>
-                         <a href="https://github.com/MhLiao/TextBoxes_plusplus" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/TextBoxes_plusplus -->
-                        <img src="assets/TextBoxes++.png" alt="TextBoxes++">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                           TextBoxes++: A Single-Shot Oriented Scene Text Detector
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Baoguang Shi, Xiang Bai
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            IEEE Transactions on Image Processing (TIP), 2018
-                        </p>
-                         <a href="https://github.com/MhLiao/TextBoxes_plusplus" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div class="pub-item flex flex-col md:flex-row gap-6 bg-white p-5 rounded-xl border border-gray-100">
-                    <div class="pub-image-container w-full md:w-48 h-32 md:h-auto flex-shrink-0 rounded-lg border border-gray-200">
-                         <!-- GitHub: https://github.com/MhLiao/TextBoxes -->
-                        <img src="assets/TextBoxes.png" alt="TextBoxes">
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-lg font-bold text-gray-900 leading-tight mb-2">
-                           Textboxes: A fast text detector with a single deep neural network
-                        </h3>
-                        <p class="text-gray-600 mb-1 text-sm">
-                            <span class="font-semibold text-gray-900">Minghui Liao</span>, Baoguang Shi, Xiang Bai, Xinggang Wang, Wenyu Liu
-                        </p>
-                        <p class="text-gray-500 italic mb-3 text-sm">
-                            AAAI, 2017 <span class="text-red-500 font-bold ml-1">Oral</span>
-                        </p>
-                         <a href="https://github.com/MhLiao/TextBoxes" target="_blank" class="inline-flex items-center px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded hover:bg-gray-200 transition">
-                            <i class="fab fa-github mr-1"></i> GitHub
-                        </a>
-                    </div>
-                </div>
-
+                {% endfor %}
             </div>
         </section>
 
-        <!-- Honors & Awards -->
+        <!-- Honors & Awards (内容维护在 _data/awards.yml) -->
         <section id="awards">
             <h2 class="text-2xl font-bold text-gray-900 mb-6 border-l-4 border-blue-600 pl-3">Honors & Awards</h2>
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
                 <table class="min-w-full divide-y divide-gray-200">
                     <tbody class="bg-white divide-y divide-gray-200">
-                         <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500 w-32">2023-2025</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">Elsevier Highly Cited Chinese Researchers (爱思唯尔中国高被引学者)</td>
-                        </tr>
+                        {% for award in site.data.awards %}
                         <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500">2023-2025</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">Stanford World's Top 2% Scientists (斯坦福大学全球前2%顶尖科学家)</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500 w-32">{{ award.year }}</td>
+                            <td class="px-6 py-4 text-sm text-gray-800">{{ award.title }}</td>
                         </tr>
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500">2024</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">First Prize of Hubei Natural Science Award (湖北省自然科学奖一等奖)</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500">2022</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">CSIG Excellent Doctoral Dissertation Award (CSIG 优秀博士学位论文奖)</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500">2021</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">Top 100 Chinese New Stars in AI (AI华人新星百强)</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50 transition">
-                            <td class="px-6 py-4 whitespace-nowrap text-sm font-mono text-gray-500">2019</td>
-                            <td class="px-6 py-4 text-sm text-gray-800">National Scholarship for PhD Student</td>
-                        </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
@@ -716,10 +234,10 @@
     <footer class="bg-white border-t border-gray-100 mt-20">
         <div class="max-w-5xl mx-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
             <p class="text-gray-400 text-sm">
-                &copy; 2025 Minghui Liao.
+                &copy; {{ site.time | date: "%Y" }} Minghui Liao.
             </p>
             <div class="mt-4 md:mt-0 text-gray-400 text-sm">
-                Powered by Tailwind CSS
+                Powered by Tailwind CSS &amp; Jekyll
             </div>
         </div>
     </footer>
@@ -742,7 +260,7 @@
         btn.addEventListener('click', () => {
             menu.classList.toggle('hidden');
         });
-        
+
         menu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 menu.classList.add('hidden');
@@ -772,7 +290,7 @@
         // 绑定关闭事件
         closeBtn.addEventListener('click', closeModal);
         modalImg.addEventListener('click', closeModal); // 点击大图本身也关闭
-        
+
         // 点击背景关闭
         modal.addEventListener('click', (e) => {
             if (e.target === modal) closeModal();

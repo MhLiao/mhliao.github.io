@@ -1,0 +1,208 @@
+# 论文列表。新增论文只需在顶部追加一段，字段说明：
+#   title:   论文标题
+#   authors: 作者列表（"Minghui Liao" 会自动加粗）
+#   venue:   发表venue，如 "CVPR, 2021" 或 "arXiv preprint arXiv:2410.05261, 2024"
+#   oral:    true 时显示红色 Oral 标记（可选）
+#   image:   teaser 图片路径（assets/ 下）
+#   alt:     图片 alt 文本
+#   tags:    蓝色标签列表，如 [Project Lead, Co-first author]（可选）
+#   links:   按钮链接列表，label 支持 GitHub / Project Page / Paper / Code 等（可选）
+
+- title: "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture"
+  authors: "Xin He, et al."
+  venue: "arXiv preprint, 2025"
+  image: assets/EMMA.png
+  alt: "EMMA"
+  links:
+    - label: "Project Page"
+      url: "https://emma-umm.github.io/emma/"
+
+- title: "Cross-Lingual Text-Rich Visual Comprehension: An Information Theory Perspective"
+  authors: "Xinmiao Yu, et al."
+  venue: "AAAI Conference on Artificial Intelligence (AAAI), 2025"
+  image: assets/XTVQA.png
+  alt: "XTVQA"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/Stardust-y/XTVQA"
+
+- title: "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning"
+  authors: "Hao Yan, et al."
+  venue: "arXiv preprint, 2025"
+  image: assets/VisuRiddles.png
+  alt: "VisuRiddles"
+  tags: ["Project Lead"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yh-hust/VisuRiddles"
+
+- title: "UI-Hawk: Unleashing the Screen Stream Understanding for GUI Agents"
+  authors: "Jiwen Zhang, et al."
+  venue: "EMNLP, 2025"
+  image: assets/UIHawk.png
+  alt: "UI-Hawk"
+  tags: ["Project Lead"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/IMNearth/UIHawk"
+
+- title: "TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens"
+  authors: "Ya-Qi Yu, Minghui Liao, Jiwen Zhang, Jihao Wu"
+  venue: "arXiv preprint arXiv:2410.05261, 2024"
+  image: assets/TextHawk2.png
+  alt: "TextHawk2"
+  tags: ["Project Lead"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yuyq96/TextHawk"
+
+- title: "TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models"
+  authors: "Ya-Qi Yu, Minghui Liao, Jihao Wu, Yongxin Liao, Xiaoyu Zheng, Wei Zeng"
+  venue: "arXiv preprint arXiv:2404.09204, 2024"
+  image: assets/TextHawk.png
+  alt: "TextHawk"
+  tags: ["Co-first author", "Project Lead"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yuyq96/TextHawk"
+
+- title: "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling"
+  authors: "Xudong Xie, et al."
+  venue: "arXiv preprint arXiv:2410.05970, 2024"
+  image: assets/PDFWukong.png
+  alt: "WuKong"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yh-hust/PDF-Wukong"
+
+- title: "Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
+  authors: "Jiwen Zhang, et al."
+  venue: "EMNLP Findings, 2024"
+  image: assets/AITZ.png
+  alt: "Android in the Zoo"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/IMNearth/CoAT"
+
+- title: "Partial Scene Text Retrieval"
+  authors: "Hao Wang, Minghui Liao, Zhouyi Xie, Wenyu Liu, Xiang Bai"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024"
+  image: assets/PST.png
+  alt: "Partial Scene Text Retrieval"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/lanfeng4659/PSTR"
+
+- title: "Reading and Writing: Discriminative and Generative Modeling for Self-Supervised Text Recognition"
+  authors: "Mingkun Yang, Minghui Liao, Pu Lu, Jing Wang, Shenggao Zhu, Hualin Luo, Qi Tian, Xiang Bai"
+  venue: "ACM Multimedia (ACM MM), 2022"
+  image: assets/DiG.png
+  alt: "DiG"
+  tags: ["Co-first author"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/ayumiymk/DiG"
+
+- title: "Real-Time Scene Text Detection with Differentiable Binarization and Adaptive Scale Fusion"
+  authors: "Minghui Liao, Zhisheng Zou, Zhaoyi Wan, Cong Yao, Xiang Bai"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022"
+  image: assets/DBNet_TPAMI.png
+  alt: "DBNet++"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/DB"
+
+- title: "MOST: A Multi-Oriented Scene Text Detector with Localization Refinement"
+  authors: "Minghang He, Minghui Liao, Zhibo Yang, Humen Zhong, Jun Tang, Wenqing Cheng, Cong Yao, Yongpan Wang, Xiang Bai"
+  venue: "CVPR, 2021"
+  image: assets/MOST.png
+  alt: "MOST"
+  tags: ["Co-first author"]
+
+- title: "Mask TextSpotter v3: Segmentation Proposal Network for Robust Scene Text Spotting"
+  authors: "Minghui Liao, Guan Pang, Jing Huang, Tal Hassner, Xiang Bai"
+  venue: "European Conference on Computer Vision (ECCV), 2020"
+  image: assets/MTSV3.png
+  alt: "Mask TextSpotter v3"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/MaskTextSpotterV3"
+
+- title: "Real-time Scene Text Detection with Differentiable Binarization"
+  authors: "Minghui Liao, Zhaoyi Wan, Cong Yao, Kai Chen, Xiang Bai"
+  venue: "AAAI, 2020"
+  oral: true
+  image: assets/DBNet.png
+  alt: "DBNet"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/DB"
+
+- title: "SynthText3D: Synthesizing Scene Text Images from 3D Virtual Worlds"
+  authors: "Minghui Liao, Boyu Song, Minghang He, Shangbang Long, Cong Yao, Xiang Bai"
+  venue: "SCIS, 2020"
+  image: assets/SynthText3D.png
+  alt: "SynthText3D"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/SynthText3D"
+
+- title: "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes"
+  authors: "Minghui Liao, Pengyuan Lyu, Minghang He, Cong Yao, Wenhao Wu, Xiang Bai"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  image: assets/MTS_TPAMI.png
+  alt: "Mask TextSpotter (TPAMI)"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/MaskTextSpotter"
+
+- title: "Symmetry-constrained Rectification Network for Scene Text Recognition"
+  authors: "MingKun Yang, Yushuo Guan, Minghui Liao, Xin He, Kaigui Bian, Song Bai, Cong Yao, Xiang Bai"
+  venue: "International Conference on Computer Vision (ICCV), 2019"
+  image: assets/ScRN.png
+  alt: "ScRN"
+
+- title: "Scene Text Recognition from Two-Dimensional Perspective"
+  authors: "Minghui Liao, Jian Zhang, Zhaoyi Wan, Fengming Xie, Jiajun Liang, Pengyuan Lyu, Cong Yao, Xiang Bai"
+  venue: "AAAI, 2019"
+  oral: true
+  image: assets/CA-FCN.png
+  alt: "CA-FCN"
+
+- title: "Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes"
+  authors: "Pengyuan Lyu, Minghui Liao, Cong Yao, Wenhao Wu, Xiang Bai"
+  venue: "European Conference on Computer Vision (ECCV), 2018"
+  image: assets/MaskTextSpotter.png
+  alt: "Mask TextSpotter (ECCV)"
+  tags: ["Co-first author"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/lvpengyuan/masktextspotter.caffe2"
+
+- title: "Rotation-Sensitive Regression for Oriented Scene Text Detection"
+  authors: "Minghui Liao, Zhen Zhu, Baoguang Shi, Gui-song Xia, Xiang Bai"
+  venue: "CVPR, 2018"
+  image: assets/RRD.png
+  alt: "RRD"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/RRD"
+
+- title: "TextBoxes++: A Single-Shot Oriented Scene Text Detector"
+  authors: "Minghui Liao, Baoguang Shi, Xiang Bai"
+  venue: "IEEE Transactions on Image Processing (TIP), 2018"
+  image: assets/TextBoxes++.png
+  alt: "TextBoxes++"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/TextBoxes_plusplus"
+
+- title: "TextBoxes: A Fast Text Detector with a Single Deep Neural Network"
+  authors: "Minghui Liao, Baoguang Shi, Xiang Bai, Xinggang Wang, Wenyu Liu"
+  venue: "AAAI, 2017"
+  oral: true
+  image: assets/TextBoxes.png
+  alt: "TextBoxes"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/MhLiao/TextBoxes"

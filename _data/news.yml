@@ -1,0 +1,9 @@
+# 新闻列表。新增一条只需在顶部追加：
+#   date: 显示在上方的小字（如 "2025.06" 或 "Recent"）
+#   text: 内容，支持 <strong> 等 HTML 标签
+
+- date: "Recent"
+  text: "🔥 <strong>EMMA</strong> is released."
+
+- date: "Recent"
+  text: "🚀 <strong>VisuRiddles</strong> is released."

@@ -1,6 +1,10 @@
+# Jekyll 配置。站点内容由 _data/ 目录下的 yml 文件维护，
+# index.html 是页面布局模板（顶部的 --- 是让 Jekyll 处理它的标记，不要删除）。
+
 title: Minghui Liao
-logo: person2.jpg
-description: I am now a researcher in Huawei.
-theme: jekyll-theme-minimal
-show_downloads: false
-google_analytics: UA-119872468-1
+description: Academic homepage of Minghui Liao, Researcher at Huawei specializing in Multimodal Vision Language Models and Document Intelligence.
+
+# 排除不参与构建的文件
+exclude:
+  - README.md
+  - .gitignore

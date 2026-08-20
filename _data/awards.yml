@@ -1,0 +1,33 @@
+# 获奖列表。新增一条只需在顶部追加：
+#   year:  年份或区间
+#   title: 奖项名称（可附中文）
+
+- year: "2023-2025"
+  title: "Elsevier Highly Cited Chinese Researchers (爱思唯尔中国高被引学者)"
+
+- year: "2023-2025"
+  title: "Stanford World's Top 2% Scientists (斯坦福大学全球前2%顶尖科学家)"
+
+- year: "2024"
+  title: "First Prize of Hubei Natural Science Award (湖北省自然科学奖一等奖)"
+
+- year: "2022"
+  title: "CSIG Excellent Doctoral Dissertation Award (CSIG 优秀博士学位论文奖)"
+
+- year: "2021"
+  title: "CSIG Natural Science Award, First Prize (CSIG自然科学奖一等奖)"
+
+- year: "2021"
+  title: "Top 100 Chinese New Stars in AI (AI华人新星百强)"
+
+- year: "2019"
+  title: "National Scholarship for PhD Student"
+
+- year: "2019"
+  title: "VALSE Annual Outstanding Student Paper Award Honorable Mention"
+
+- year: "2018"
+  title: "CCF-CV Scholarship for PhD Student"
+
+- year: "2017"
+  title: "National Scholarship for Master Student"
