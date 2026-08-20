@@ -8,6 +8,64 @@
 #   tags:    蓝色标签列表，如 [Project Lead, Co-first author]（可选）
 #   links:   按钮链接列表，label 支持 GitHub / Project Page / Paper / Code 等（可选）
 
+- title: "DARL: Efficient Document-to-Markup Generation via Look-Ahead Diffusion Trajectory Sampling"
+  authors: "Wentao Yang, et al."
+  venue: "ECCV, 2026"
+  image: assets/DARL.png
+  alt: "DARL"
+  links:
+    - label: "Project Page"
+      url: "https://github.com/SCUT-DLVCLab/DARL"
+
+- title: "TongGuOCR: A Layout-Aware and Token-Augmented OCR Framework for Chinese Historical Documents"
+  authors: "Zhongheng Zhou, et al."
+  venue: "arXiv preprint, 2026"
+  image: assets/TongGuOCR.png
+  alt: "TongGuOCR"
+  links:
+    - label: "Project Page"
+      url: "https://jzzh2004.github.io/TongGuOCR"
+
+- title: "DiffMath: Symbol-and Graph-Aware Latent Diffusion Transformer for Handwritten Mathematical Expression Generation"
+  authors: "Wei Pan, et al."
+  venue: "arXiv preprint, 2026"
+  image: assets/DiffMath.png
+  alt: "DiffMath"
+  links:
+    - label: "Project Page"
+      url: "https://github.com/awei669/DiffMath"
+
+- title: "Reinforcement Learning with Robust Rubric Rewards"
+  authors: "Ya-Qi Yu, et al."
+  venue: "arXiv preprint, 2026"
+  image: assets/RLR3.png
+  alt: "RLR3"
+
+- title: "Visual Preference Optimization with Rubric Rewards"
+  authors: "Ya-Qi Yu, et al."
+  venue: "arXiv preprint, 2026"
+  image: assets/rDPO.png
+  alt: "rDPO"
+
+- title: "DocSeeker: Structured Visual Reasoning with Evidence Grounding for Long Document Understanding"
+  authors: "Hao Yan, et al."
+  venue: "CVPR, 2026"
+  image: assets/DocSeeker.png
+  alt: "DocSeeker"
+  links:
+    - label: "Project Page"
+      url: "https://github.com/yh-hust/DocSeeker"
+
+- title: "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning"
+  authors: "Hao Yan, et al."
+  venue: "ICLR, 2026"
+  image: assets/VisuRiddles.png
+  alt: "VisuRiddles"
+  tags: ["Project Lead"]
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yh-hust/VisuRiddles"
+
 - title: "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture"
   authors: "Xin He, et al."
   venue: "arXiv preprint, 2025"
@@ -25,16 +83,6 @@
   links:
     - label: "GitHub"
       url: "https://github.com/Stardust-y/XTVQA"
-
-- title: "VisuRiddles: Fine-grained Perception is a Primary Bottleneck for Multimodal Large Language Models in Abstract Visual Reasoning"
-  authors: "Hao Yan, et al."
-  venue: "arXiv preprint, 2025"
-  image: assets/VisuRiddles.png
-  alt: "VisuRiddles"
-  tags: ["Project Lead"]
-  links:
-    - label: "GitHub"
-      url: "https://github.com/yh-hust/VisuRiddles"
 
 - title: "UI-Hawk: Unleashing the Screen Stream Understanding for GUI Agents"
   authors: "Jiwen Zhang, et al."
@@ -68,7 +116,7 @@
 
 - title: "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling"
   authors: "Xudong Xie, et al."
-  venue: "arXiv preprint arXiv:2410.05970, 2024"
+  venue: "IJCV, 2026"
   image: assets/PDFWukong.png
   alt: "WuKong"
   links:
