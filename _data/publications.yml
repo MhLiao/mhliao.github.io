@@ -37,13 +37,13 @@
 
 - title: "Reinforcement Learning with Robust Rubric Rewards"
   authors: "Ya-Qi Yu, et al."
-  venue: "arXiv preprint, 2026"
+  venue: "EMNLP, 2026"
   image: assets/RLR3.png
   alt: "RLR3"
 
 - title: "Visual Preference Optimization with Rubric Rewards"
   authors: "Ya-Qi Yu, et al."
-  venue: "arXiv preprint, 2026"
+  venue: "EMNLP, 2026"
   image: assets/rDPO.png
   alt: "rDPO"
 
