@@ -2,6 +2,6 @@
 #   date: 显示在上方的小字（如 "2025.06" 或 "Recent"）
 #   text: 内容，支持 <strong> 等 HTML 标签
 
-- date: "Recent"
-  text: "🔥 <strong>DARL</strong> is accepted by ECCV 2026."
+- date: "2026-08"
+  text: "🔥 Two papers are accepted by EMNLP 2026."
 
