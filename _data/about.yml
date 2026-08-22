@@ -1,0 +1,25 @@
+# About Me 内容维护（由 index.html 渲染）
+# 修改这里即可更新主页 About 区块，无需改动布局代码。
+
+intro: >
+  I am currently a Researcher at Huawei (2021–Present). Before joining Huawei, I received my Ph.D. degree from Huazhong University of Science and Technology, supervised by Prof. Xiang Bai.
+
+research_journey: >
+  My research journey includes visiting Johns Hopkins University (with Prof. Alan Yuille, 2019–2020), and research internships at Facebook (2019) and Megvii/Face++ (2018–2019).
+
+experience:
+  - year: "2021–"
+    text: "Researcher, Huawei"
+  - year: "2019–2020"
+    text: "Visiting Researcher, Johns Hopkins University (with Prof. Alan Yuille)"
+  - year: "2019"
+    text: "Research Intern, Facebook"
+  - year: "2018–2019"
+    text: "Research Intern, Megvii / Face++"
+
+seeking: "I am always looking for self-motivated research interns."
+
+highlight:
+  directions: "Multimodal Vision Language Models, Document Intelligence"
+  note: "Priority given to candidates with top-tier publications or available for long-term internship (>6 months)."
+  email: "liaominghui1@huawei.com"

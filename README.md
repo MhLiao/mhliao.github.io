@@ -6,6 +6,7 @@
 
 ```
 _data/
+  about.yml          # About Me 简介与经历（内容在这里维护）
   publications.yml   # 论文列表（内容都在这里维护）
   news.yml           # News 动态
   awards.yml         # Honors & Awards
