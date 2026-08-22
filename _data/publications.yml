@@ -73,6 +73,16 @@
     - label: "GitHub"
       url: "https://github.com/yh-hust/VisuRiddles"
 
+- title: "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling"
+  authors: "Xudong Xie, et al."
+  venue: "IJCV, 2026"
+  year: 2026
+  image: assets/PDFWukong.png
+  alt: "WuKong"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/yh-hust/PDF-Wukong"
+
 - title: "EMMA: Efficient Multimodal Understanding, Generation, and Editing with a Unified Architecture"
   authors: "Xin He, et al."
   venue: "arXiv preprint, 2025"
@@ -125,16 +135,6 @@
   links:
     - label: "GitHub"
       url: "https://github.com/yuyq96/TextHawk"
-
-- title: "WuKong: A Large Multimodal Model for Efficient Long PDF Reading with End-to-End Sparse Sampling"
-  authors: "Xudong Xie, et al."
-  venue: "IJCV, 2026"
-  year: 2026
-  image: assets/PDFWukong.png
-  alt: "WuKong"
-  links:
-    - label: "GitHub"
-      url: "https://github.com/yh-hust/PDF-Wukong"
 
 - title: "Android in the Zoo: Chain-of-Action-Thought for GUI Agents"
   authors: "Jiwen Zhang, et al."
