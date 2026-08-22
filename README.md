@@ -6,9 +6,8 @@
 
 ```
 _data/
-  about.yml          # About Me 简介与经历（内容在这里维护）
+  about.yml          # About Me 简介、经历与招聘信息（内容在这里维护）
   publications.yml   # 论文列表（内容都在这里维护）
-  news.yml           # News 动态
   awards.yml         # Honors & Awards
 index.html           # 页面布局模板（一般不需要改）
 assets/              # 论文 teaser 图片
@@ -39,9 +38,9 @@ _config.yml          # 站点配置
 
 3. commit & push，一两分钟后线上自动更新。
 
-## 更新 News / Awards
+## 更新 Recruiting / Awards
 
-- News：编辑 `_data/news.yml`，`text` 支持 HTML（如 `<strong>`）
+- Recruiting（招聘/实习）：编辑 `_data/about.yml` 的 `seeking` 与 `highlight` 字段
 - Awards：编辑 `_data/awards.yml`，只有 `year` 和 `title` 两个字段
 
 ## 本地预览（可选）

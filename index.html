@@ -74,7 +74,7 @@
                     <a href="#home" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">Home</a>
                     <a href="#about" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">About</a>
                     <a href="#publications" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">Publications</a>
-                    <a href="#news" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">News</a>
+                    <a href="#recruiting" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">Recruiting</a>
                     <a href="#awards" class="text-gray-600 hover:text-academic px-3 py-2 text-sm font-medium transition">Awards</a>
                 </div>
 
@@ -93,7 +93,7 @@
                 <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">Home</a>
                 <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">About</a>
                 <a href="#publications" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">Publications</a>
-                <a href="#news" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">News</a>
+                <a href="#recruiting" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">Recruiting</a>
                 <a href="#awards" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-academic hover:bg-gray-50 rounded-md">Awards</a>
             </div>
         </div>
@@ -135,7 +135,7 @@
             </div>
         </section>
 
-        <!-- About & News -->
+        <!-- About & Recruiting -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
             <!-- About (内容维护在 _data/about.yml) -->
             <section id="about" class="md:col-span-2">
@@ -150,28 +150,22 @@
                         <li><span class="font-mono text-gray-400 mr-2">{{ item.year }}</span> {{ item.text }}</li>
                         {% endfor %}
                     </ul>
-
-                    <p class="mt-4 mb-3 font-medium text-gray-800">{{ site.data.about.seeking }}</p>
-                    <p class="text-sm bg-blue-50 p-3 rounded-lg border border-blue-100 text-blue-800">
-                        <i class="fas fa-info-circle mr-1"></i> Research directions: {{ site.data.about.highlight.directions }}. <br>
-                        {{ site.data.about.highlight.note }} Email: {{ site.data.about.highlight.email }}
-                    </p>
                 </div>
             </section>
 
-            <!-- News (内容维护在 _data/news.yml) -->
-            <section id="news" class="md:col-span-1 bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-fit">
+            <!-- Recruiting (内容维护在 _data/about.yml 的 highlight / seeking) -->
+            <section id="recruiting" class="md:col-span-1 bg-blue-50 p-6 rounded-xl shadow-sm border border-blue-100 h-fit">
                 <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center">
-                    <i class="fas fa-bullhorn text-red-500 mr-2"></i> News
+                    <i class="fas fa-user-plus text-blue-600 mr-2"></i> Recruiting
                 </h2>
-                <ul class="space-y-4 text-sm">
-                    {% for item in site.data.news %}
-                    <li>
-                        <span class="block text-gray-400 text-xs font-mono mb-1">{{ item.date }}</span>
-                        <span class="text-gray-700">{{ item.text }}</span>
-                    </li>
-                    {% endfor %}
-                </ul>
+                <p class="text-gray-800 font-medium mb-3">{{ site.data.about.seeking }}</p>
+                <p class="text-sm text-blue-900 mb-2">
+                    <i class="fas fa-info-circle mr-1"></i> <span class="font-medium">Research directions:</span> {{ site.data.about.highlight.directions }}.
+                </p>
+                <p class="text-sm text-blue-900">{{ site.data.about.highlight.note }}</p>
+                <p class="text-sm text-blue-900 mt-2">
+                    Email: <a href="mailto:{{ site.data.about.highlight.email }}" class="font-semibold underline">{{ site.data.about.highlight.email }}</a>
+                </p>
             </section>
         </div>
 
